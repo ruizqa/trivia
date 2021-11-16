@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div id="board" class="container section grey lighten-2">
+        <div class="row valign-wrapper teal lighten-3">
+                <div class="col m4 center-align"><a class="white-text" id ="reload"><h5>Continue with new questions</h5></a></div>
+                <div class="col m4 center-align">
+                    <h1>Trivia Night</h1>
+                </div>
+                <div class="col m4 center-align"><h5><span id="score">0</span> Points</h5></div>
+        </div>
+
+        <div class="row valign-wrapper">
+            <h4 class="col m4 center-align">Geography</h4>
+            <h4 class="col m4 center-align">Entertainment</h4>
+            <h4 class="col m4 center-align">Science</h4>
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col m4 center-align" id="question1">
+                <div class="card blue-grey darken-1">
+                    <a class="btn" id="geo-easy">100 pts</a>
+                </div>
+            </div>
+            <div class="col m4 center-align" id="question2">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="ent-easy">100 pts</a>
+              </div>
+            </div>
+            <div class="col m4 center-align" id="question3">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="sci-easy">100 pts</a>
+              </div>
+            </div>
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col m4 center-align" id="question4">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="geo-medium">200 pts</a>
+              </div>
+            </div>
+            <div class="col m4 center-align" id="question5">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="ent-medium">200 pts</a>
+              </div>
+            </div>
+            <div class="col m4 center-align" id="question6">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="sci-medium">200 pts</a>
+              </div>
+            </div>
+        </div>
+        <div class="row valign-wrapper">
+            <div class="col m4 center-align" id="question7">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="geo-hard">300 pts</a>
+              </div>
+            </div>
+            <div class="col m4 center-align" id="question8">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="ent-hard">300 pts</a>
+              </div>
+            </div>
+            <div class="col m4 center-align" id="question9">
+              <div class="card blue-grey darken-1">
+                <a class="btn" id="sci-hard">300 pts</a>
+              </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
